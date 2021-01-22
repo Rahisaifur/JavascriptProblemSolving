@@ -9,7 +9,7 @@ function kilometerToMeter(kilometer) {
         return "distance can not be negative or 0";
     }
     else if (kilometer > 0) {
-        meater = kilometer * 1000;
+        meter = kilometer * 1000;
         return meter;
     }
 
