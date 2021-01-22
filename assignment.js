@@ -99,7 +99,7 @@ function megaFriend(friendsName) {
 var check = prompt("Enter the number accordingly to choose the program you want to use: 1: kilometerToMeter 2: budgetCalculator 3: hotelCost 4: megaFriend");
 if (check == 1) {
     var meter;
-    var km = prompt("Enter the number")
+    var km = prompt("Enter the number");
     meter = kilometerToMeter(km);
     console.log(meter + " meter");
 }
@@ -120,11 +120,11 @@ else if (check == 3) {
 }
 else if (check == 4) {
     var largeName;
-    var element = prompt("How many names?")
+    var element = prompt("How many names?");
     var names = [];
 
     for (var i = 0; i < element; i++) {
-        names[i] = prompt("enter name:")
+        names[i] = prompt("enter name:");
     }
 
     largeName = megaFriend(names);
